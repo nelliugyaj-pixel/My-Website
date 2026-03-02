@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A Loving Mother</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+/* Base */
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(135deg, #fef9f9, #e3f6f5);
+    overflow-x: hidden;
+    position: relative;
+    color: #333;
+}
+
+/* Floating Shapes */
+.shape {
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.2;
+    z-index: 0;
+    animation: float 20s ease-in-out infinite;
+    filter: blur(25px);
+}
+
+.shape1 {
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(135deg, #fcd5ce, #f8b195);
+    top: -150px;
+    left: -150px;
+    animation-duration: 22s;
+}
+
+.shape2 {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(135deg, #c3aed6, #6a4c93);
+    bottom: -150px;
+    right: -150px;
+    animation-duration: 25s;
+}
+
+.shape3 {
+    width: 150px;
+    height: 150px;
+    background: rgba(255, 183, 197, 0.2);
+    top: 40%;
+    right: 10%;
+    animation-duration: 18s;
+}
+
+/* Float Animation */
+@keyframes float {
+    0%, 100% { transform: translateY(0) translateX(0) rotate(0deg); }
+    25% { transform: translateY(-25px) translateX(15px) rotate(15deg); }
+    50% { transform: translateY(20px) translateX(-10px) rotate(-10deg); }
+    75% { transform: translateY(-15px) translateX(5px) rotate(5deg); }
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #f67280, #c06c84);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    border-bottom-left-radius: 50% 10%;
+    border-bottom-right-radius: 50% 10%;
+}
+
+header h1 {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    letter-spacing: 1px;
+    text-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+header p {
+    margin-top: 12px;
+    opacity: 0.85;
+    font-weight: 300;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 700px;
+    margin: 60px auto;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 50px 40px;
+    border-radius: 30px;
+    box-shadow: 0 25px 50px rgba(0,0,0,0.08);
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    backdrop-filter: blur(10px);
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #6a4c93;
+}
+
+.poem {
+    font-size: 18px;
+    line-height: 2;
+    color: #555;
+    font-weight: 300;
+}
+
+/* Button */
+a {
+    display: inline-block;
+    margin-top: 40px;
+    text-decoration: none;
+    background: linear-gradient(135deg, #f67280, #c06c84);
+    color: white;
+    padding: 14px 32px;
+    border-radius: 50px;
+    font-size: 15px;
+    transition: all 0.4s ease;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+a:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 25px;
+    font-size: 13px;
+    color: #888;
+    position: relative;
+    z-index: 1;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- Floating Shapes -->
+<div class="shape shape1"></div>
+<div class="shape shape2"></div>
+<div class="shape shape3"></div>
+
+
+<header>
+    <h1>A Loving Mother</h1>
+    <p>Ellaica Mesa</p>
+</header>
+
+<div class="container" style="text-align: center;">
+    <h2>A Loving Mother</h2>
+    <p>
+        
+<br>
+
+A loving mother<br>
+She raised me together<br>
+And did not leave me to another<br>
+Like the clouds, she was always there<br>
+<br>
+I would choose her every lifetime<br>
+As she could never cost even a dime<br>
+No matter what I had someone<br>
+Even when she has no one<br>
+<br>
+A person to care for you<br>
+Though the silent screams it's true<br>
+She may not be ideal<br>
+But at least she's real<br>
+
+<br>
+
+    </p>
+
+    <a href="member1.html">⬅ Back to Member Page</a>
+</div>
+
+</body>
+</html>

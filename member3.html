@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Member 3 | Portfolio</title>
+
+<!-- Google Fonts for futuristic look -->
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
+
+<style>
+/* General Reset & Body */
+body { 
+    font-family: 'Roboto', sans-serif; 
+    margin:0; 
+    background: #0a0a0f; 
+    color: #e0e0e0; 
+    overflow-x: hidden;
+}
+
+/* Header */
+header { 
+    background: linear-gradient(135deg, #0ff, #0af); 
+    color: #0a0a0f; 
+    padding: 40px 20px; 
+    text-align: center; 
+    box-shadow: 0 0 20px #0ff;
+    font-family: 'Orbitron', sans-serif;
+}
+
+header h1 { 
+    font-size: 2.5em; 
+    margin: 0; 
+    text-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
+}
+
+header p { 
+    font-size: 1.2em; 
+    margin-top: 10px; 
+}
+
+/* Container */
+.container { 
+    width: 85%; 
+    margin: 30px auto; 
+}
+
+/* Sections */
+.section {
+    background: rgba(15, 15, 30, 0.9); 
+    padding: 25px; 
+    margin-bottom: 20px; 
+    border-radius: 12px; 
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.4);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 30px #0ff, 0 0 60px #0ff;
+}
+
+/* Section Titles */
+.section h2 {
+    font-family: 'Orbitron', sans-serif;
+    color: #0ff;
+    text-shadow: 0 0 8px #0ff;
+}
+
+/* Output Links */
+.output-link {
+    display: block;
+    padding: 14px 20px;
+    margin-bottom: 12px;
+    background: rgba(0, 255, 255, 0.1);
+    text-decoration: none;
+    color: #0ff;
+    border-radius: 8px;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+    box-shadow: 0 0 5px #0ff;
+    transition: all 0.3s ease;
+}
+
+.output-link:hover {
+    background: #0ff;
+    color: #0a0a0f;
+    box-shadow: 0 0 20px #0ff, 0 0 40px #0ff;
+    transform: translateX(5px);
+}
+
+/* Button */
+a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #0ff;
+    color: #0a0a0f;
+    text-decoration: none;
+    border-radius: 8px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    box-shadow: 0 0 10px #0ff;
+    transition: all 0.3s ease;
+}
+
+a.button:hover { 
+    background: #00a8cc; 
+    box-shadow: 0 0 25px #00f, 0 0 50px #0ff;
+    transform: translateY(-3px);
+}
+
+/* Subtle glow animation */
+@keyframes neon-glow {
+    0%, 100% { text-shadow: 0 0 5px #0ff, 0 0 10px #0ff; }
+    50% { text-shadow: 0 0 15px #0ff, 0 0 30px #0ff; }
+}
+
+header h1 {
+    animation: neon-glow 1.5s infinite alternate;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Mark Ezekiel P. Leonor</h1>
+    <p>Member</p>
+</header>
+
+<div class="container">
+
+    <div class="section">
+        <h2>About Me</h2>
+        <p>I enjoy solving problems, working in teams, and learning new skills.</p>
+    </div>
+
+    <div class="section">
+        <h2>Individual Outputs</h2>
+
+        <a href="member3-output1.html" class="output-link">
+            📄 Superstar
+        </a>
+
+        <a href="member3-output2.html" class="output-link">
+            📄 Love’s First Breath
+        </a>
+
+        <a href="member3-output3.html" class="output-link">
+            📄 Do it Scared
+        </a>
+
+        <a href="member3-output4.html" class="output-link">
+            📄 Buntod: The Place You’d Wanna Be
+        </a>
+
+    </div>
+
+    <a href="index.html" class="button">⬅ Back to Main Page</a>
+
+</div>
+
+</body>
+</html>
